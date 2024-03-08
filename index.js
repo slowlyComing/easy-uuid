@@ -1,3 +1,4 @@
-import generateUUID from "./src/format";
+import randomUUID from "./src/generate";
+import timestampRandomMd5UUid from './src/generate'
 // export
-export { generateUUID };
+export { randomUUID, timestampRandomMd5UUid };
