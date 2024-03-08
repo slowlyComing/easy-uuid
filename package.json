@@ -1,6 +1,6 @@
 {
   "name": "easy-uuid",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "easy to generate a custom length uuid",
   "main": "index.js",
   "scripts": {
