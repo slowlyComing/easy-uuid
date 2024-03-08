@@ -1,7 +1,7 @@
 {
   "name": "easy-uuid",
   "version": "1.0.0",
-  "description": "easy to generate uuid and costumer length",
+  "description": "easy to generate a custom length uuid",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/slowlyComing/easy-uuid"
-  },
+  }
 }
