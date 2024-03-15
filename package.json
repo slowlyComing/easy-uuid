@@ -1,6 +1,6 @@
 {
   "name": "easy-uuid",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "easy to generate a custom length uuid",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,12 @@
   },
   "author": "",
   "license": "ISC",
+  "type":"module",
   "repository": {
     "type": "git",
     "url": "https://github.com/slowlyComing/easy-uuid"
   },
   "dependencies": {
-    "crypto-js": "^4.2.0"
+    "md5": "^2.3.0"
   }
 }

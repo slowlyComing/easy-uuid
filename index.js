@@ -1,4 +1,4 @@
-import randomUUID from "./src/generate";
-import timestampRandomMd5UUid from './src/generate'
-// export
-export { randomUUID, timestampRandomMd5UUid };
+import {randomUUID,timestampRandomMd5UUID } from "./src/generate.js";
+
+
+export { randomUUID, timestampRandomMd5UUID };

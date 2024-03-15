@@ -1,4 +1,4 @@
-const md5 = require('js-md5');
+import md5 from 'md5'
 
 
 function randomUUID(length) {
@@ -9,13 +9,12 @@ function randomUUID(length) {
   for (let i = 0; i < length; i++) {
     uuid += chars.charAt(Math.floor(Math.random() * charsLength));
   }
-
-  return uuid;
+  return uuid.toLocaleLowerCase();
 }
 
 
 
-function timestampRandomMd5UUid(){
+function timestampRandomMd5UUID(){
 
     const timestamp = new Date().getTime().toString(16);
     const random = Math.random().toString(16).slice(2, 10);
@@ -26,4 +25,7 @@ function timestampRandomMd5UUid(){
 }
 
 
-
+export{
+  randomUUID,
+  timestampRandomMd5UUID
+}
